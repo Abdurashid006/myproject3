@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+*{
+    font-family: Roboto;
+    text-decoration: none;
+    margin: 0;
+}
+body{
+
+    background-image: url(/source/Strip-Patterns.png); 
+    animation-name: body;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+}
+.container{
+    margin: 0 auto;
+
+}
+.nav_link{
+    text-decoration: none;
+    color: rgb(34, 27, 27);
+}
+.nav_link:hover{
+   color: rgb(78, 119, 173);
+}
+.links{
+    gap: 100px;
+    display: flex;
+    
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    
+    
+    
+}
+.nav_button{
+    color: white;
+    border-radius: 13px;
+    background: var(--gradinet, linear-gradient(250deg, #8468F5 0%, #EC74E7 100%));
+    width: 92px;
+    height: 32px;
+    border: #8468F5;
+}
+.nav_button:active{
+    color: rgb(243, 243, 243);
+    border-radius: 13px;
+    background: var(--gradinet, linear-gradient(250deg, #8468F5 0%, #aa3fa5 100%));
+    width: 92px;
+    height: 32px;
+    border: #8468F5;
+}
+.content{
+    display: flex;
+    align-items: center;
+    margin-top: 100px;
+   justify-content: space-around;
+}
+.a_content{
+    color: #8468F5;
+
+}
+.content_h1{
+color: #1D1C24;
+font-size: 57px;
+font-family: Mont;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+p{
+color: var(--body-color, #52575C);
+font-size: 20px;
+font-family: Mont;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+}
+.content_block{
+    margin-top: 10px;
+    position: relative;
+    left: 95px;
+
+}
+.content_block_margin{
+    margin-top: 10px;
+}
+.content_p{
+    margin-top: 10px;
+}
+form{
+    position: relative;
+}
+.form_btn{
+    position: absolute;
+    width: 153px;
+    height: 41px;
+    top: 4px;
+    right: 4em;
+    border-radius: 30px;
+    background: linear-gradient(154deg, #EC74E7 0%, #8468F5 75.62%);
+    color: white;
+    border: white;
+}
+.form_input{
+width: 445px;
+height: 47px;
+border-radius: 30px;
+background: #FFF;
+border: #FFF;
+}
+footer{
+    margin-top: 240px;
+}
+@keyframes body{
+    0%{
+        background-image: url(/source/Strip-Patterns.png); 
+        background-color: #F8C7C8;
+    }
+    50%{
+        background-image: url(/source/Strip-Patterns.png);  
+        background-color: #f8afb0;
+    }
+    75%{
+        background-image: url(/source/Strip-Patterns.png); 
+        background-color: #fc9395;
+    }
+    100%{
+        background-image: url(/source/Strip-Patterns.png); 
+         background-color: #F8C7C8;
+    }
+}
